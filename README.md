@@ -37,6 +37,8 @@ rnaseq[READ_LEN]bp[TCR_CHAIN].pset
 Choose READ_LEN (50, 76, 101) that is closest to actual read length
 Choose TCR_CHAIN (TRA, TRB) that matches chain you are interested in.
 
+*NOTE*: mitcr.jar obtained from [github.com/milaboratory/mitcr/releases](https://github.com/milaboratory/mitcr/releases)
+
 `~$ java -Xmx10g -jar mitcr.jar -pset rnaseq50bpTRA.pset /working/directory/reads.fq /working/directory/outputTRA50bp.txt`
 
 And the other chain...
