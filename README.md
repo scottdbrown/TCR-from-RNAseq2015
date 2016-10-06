@@ -62,3 +62,5 @@ Usage:
 Directory containing references expects a separate file for each gene, ex TRAV.fa, TRAJ.fa, TRAC.fa, etc. Different alleles for a gene are contained within the file, and have the entire sequence on a single line.
 
 Quality scores for fastq are set uniformly high ("J").
+
+TCR genes are selected randomly from a uniform distribution. Junctional nucleotide additions and subtractions are selected based on observed frequencies.
