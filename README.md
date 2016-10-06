@@ -10,6 +10,7 @@ http://www.genomemedicine.com/content/7/1/125
 
 --------------------------------------------------
 
+*NOTE:* See [below](#simulateTCR) for information on simulating TCR transcripts.
 
 The MiTCR tool does not use read pairing information, so all sequence data is first
 pooled into a single fastq file. During creation of this pooled read file, reads
@@ -47,3 +48,17 @@ And the other chain...
 
 Output files contain all CDR3 sequences that were extracted.
 
+
+<a name="simulateTCR"></a>
+###Simulating TCR transcripts.
+
+File: [simulate_TCR_transcripts.py](simulate_TCR_transcripts.py)
+
+Requires Python 2.
+
+Usage:
+`python2 simulate_TCR_transcripts.py /path/to/references/ outputFile.fq numberOfAlphaBetaPairs`
+
+Directory containing references expects a separate file for each gene, ex TRAV.fa, TRAJ.fa, TRAC.fa, etc. Different alleles for a gene are contained within the file, and have the entire sequence on a single line.
+
+Quality scores for fastq are set uniformly high ("J").
