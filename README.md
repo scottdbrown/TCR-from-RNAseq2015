@@ -28,8 +28,8 @@ All fastq files for a single sample, unzipped and uncompressed, must reside in a
 `~$ python2 combineAndCleanFastq.py /path/to/fastq/files/ /working/directory/`
 
 This will output /working/directory/reads.fq and /working/directory/numReads.txt
-reads.fq: Cleaned, combined RNA-seq file for input into MiTCR.
-numReads.txt: The number of RNA-seq reads to be used for MiTCR.
+* reads.fq: Cleaned, combined RNA-seq file for input into MiTCR.
+* numReads.txt: The number of RNA-seq reads to be used for MiTCR.
 
 To run MiTCR on RNA-seq data, the correct parameter set must be selected. This
 is based on TCR chain and read length. Parameter files are in the format:
