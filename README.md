@@ -4,7 +4,8 @@ Extracting TCR CDR3 sequences from RNAseq data.
 February 5, 2015
 Scott Brown
 
-Citation: Brown et al. Genome Medicine 2015, 7:125  doi:10.1186/s13073-015-0248-x
+Citation: [Brown et al. Genome Medicine 2015, 7:125](https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-015-0248-x)
+doi: 10.1186/s13073-015-0248-x
 http://www.genomemedicine.com/content/7/1/125
 
 
